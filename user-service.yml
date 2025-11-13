@@ -10,3 +10,15 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka/
 
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/shopverse_user
+    username: root
+    password: root
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
